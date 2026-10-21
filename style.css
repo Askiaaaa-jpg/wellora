@@ -1,0 +1,452 @@
+/* reset all */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+    body{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: aliceblue;
+        color: black;
+        line-height: 1.6;
+    }
+    /* header dan navbar */
+    header{
+        width: 90%;
+        max-width: 1100px;
+        background-color: whitesmoke;
+        border-radius: 40px;
+        box-shadow: 0 4px 20px rgba(18, 55, 42, 0.06);
+        margin: 20px auto 30px auto;
+        display: flex;
+        justify-content: space-between;
+        padding: 16px 32px;
+    }
+
+    a,.nav.logo{
+        font-size: 22px;
+        font-weight: 800;
+        color: #12372a;
+        text-decoration: none;
+
+    }
+
+    .nav-menu{
+        display: flex;
+        align-items: center;
+        gap: 28px;
+    }
+
+    .nav-item{
+        color: #1F2933;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 16px;
+    }
+
+    .nav-item:hover, .nav-item.active{
+        color: #2ead70;
+        transition: color 0.2s ease;
+    }
+    .btn-unduh{
+        background-color:#2ead70;
+        padding: 10px 22px;
+        border-radius: 25px;
+        color: white;
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 14px;
+
+        display: flex;
+        align-items: center;
+
+        box-shadow: 0 4px 12px rgba(46, 173, 112, 0.25);
+    }
+
+    .btn-unduh:hover{
+        background-color: #248c5a;
+        transform:translateY(-2px);
+        transition: transform 0.2s ease;
+
+    }
+
+    /* hero section  */
+    .hero{
+        width: 90%;
+        max-width: 1100px;
+        margin: 0 auto;
+        display: flex;
+        align-items:center;
+        justify-content:space-between;
+        align-items: center;
+        gap: 40px;
+        padding-top: 30px;
+        padding-bottom: 60px;
+    }
+
+    .gambar{
+        width: 100%;
+        max-width: 380px;
+        height: auto;
+    }
+
+    .badge-hero{
+        background-color: #e7f7ee;
+        border-radius: 20px;
+        font-weight: 700;
+        padding: 8px 16px;
+        color: #2ead70;
+        height: auto;
+        border: 1px solid #cbefdb;
+    }
+    .judul.hero{
+        font-size: 27px;
+        font-weight: 800;
+    }
+
+    .judul-hero{
+        font-size: 48px;
+        color: #12372a;
+        font-weight: 800;
+        line-height: 1.15;
+        margin-bottom: 20px;
+        margin: 20px auto 30px auto;
+    }
+    .deskripsi-hero{
+        font-size: 16px;
+        color: #52606d;
+        line-height: 1.65;
+        margin-bottom: 30px;
+    }
+
+    .nav-btn-ios:hover, .nav-button-ios.active{
+        color: #2ead70;
+        transition: color 0.2s ease;
+    }
+    .btn-ios{
+        background-color:#2ead70;
+        padding: 10px 22px;
+        border-radius: 25px;
+        color: white;
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 14px;
+
+        display: flex;
+        align-items: center;
+
+        box-shadow: 0 4px 12px rgba(46, 173, 112, 0.25);
+    }
+    .btn-ios:hover{
+        background-color: #248c5a;
+        transform:translateY(-2px);
+        transition: transform 0.2s ease;
+    }
+
+    .tagline{
+        padding: 8px;
+        height: auto;
+    }
+
+    .nav-btn-ios:hover, .nav-button-ios.active{
+        color: #2ead70;
+        transition: color 0.2s ease;
+    }
+
+    .btn-ios{
+        background-color:#2ead70;
+        padding: 10px 22px;
+        border-radius: 25px;
+        color: white;
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 14px;
+
+        display: flex;
+        align-items: center;
+
+        box-shadow: 0 4px 12px rgba(46, 173, 112, 0.25);
+    }
+
+    .btn-ios:hover{
+        background-color: #248c5a;
+        transform:translateY(-2px);
+        transition: transform 0.2s ease;
+    }
+
+    .nav-btn-android:hover, .nav-button-android.active{
+        color: #2ead70;
+        transition: color 0.2s ease;
+    }
+
+    .btn-android{
+        background-color:white;
+        padding: 10px 22px;
+        border-radius: 25px;
+        color: #2ead70;
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 14px;
+
+        display: flex;
+        align-items: center;
+
+        box-shadow: 0 4px 12px rgba(46, 173, 112, 0.25);
+    }
+    .btn-android:hover{
+        background-color: #248c5a;
+        transform:translateY(-2px);
+        transition: transform 0.2s ease;
+    }
+
+    .button-hero{
+        display: flex;
+        gap: 10px;
+    }
+
+    .program-fitur{
+        width: 150px;
+        height: 150px;
+        background-color: whitesmoke;
+        border-radius: 20px; 
+        color: black ;
+        display: flex;
+        justify-content: center; /* horizontal */
+         align-items: center; /* vertikal*/ 
+    }
+
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Warna font & font dasar*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f5faf7;
+    color: #183f32;
+    padding: 24px;
+}
+
+/* Pembungkus */
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* Fitur atas */
+.features {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    margin-bottom: 42px;
+}
+
+.feature-card {
+    background: #ffffff;
+    padding: 20px 14px;
+    border: 1px solid #edf3ef;
+    border-radius: 16px;
+    text-align: center;
+    box-shadow: 0 5px 18px rgba(30, 80, 55, 0.04);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 22px rgba(30, 80, 55, 0.10);
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    height: 42px;
+    margin: 0 auto 12px;
+    border-radius: 12px;
+    background: #e7f6ed;
+    font-size: 20px;
+}
+
+.feature-card h3 {
+    font-size: 13px;
+    margin-bottom: 9px;
+}
+
+.feature-card p {
+    font-size: 11px;
+    line-height: 1.6;
+    color: #788b80;
+}
+
+/* Isi utama*/
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 36px;
+    align-items: center;
+}
+
+/* Bagian kiri */
+.badge {
+    display: inline-block;
+    background: #e5f6eb;
+    color: #35a875;
+    padding: 7px 12px;
+    border-radius: 20px;
+    font-size: 11px;
+    font-weight: bold;
+    margin-bottom: 18px;
+}
+
+.intro h1 {
+    font-size: 32px;
+    line-height: 1.2;
+    margin-bottom: 16px;
+    letter-spacing: -0.8px;
+}
+
+.description {
+    font-size: 13px;
+    line-height: 1.8;
+    color: #788b80;
+    margin-bottom: 18px;
+}
+
+.intro ul {
+    list-style: none;
+    margin-bottom: 24px;
+}
+
+.intro li {
+    font-size: 12px;
+    color: #526f60;
+    margin-bottom: 13px;
+    line-height: 1.5;
+}
+
+.intro li::before {
+    content: "✓";
+    color: #32ae79;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.button {
+    display: inline-block;
+    background: #2eae78;
+    color: white;
+    text-decoration: none;
+    padding: 13px 22px;
+    border-radius: 30px;
+    font-size: 12px;
+    font-weight: bold;
+    box-shadow: 0 5px 12px rgba(46, 174, 120, 0.22);
+    transition: background 0.3s;
+}
+
+.button:hover {
+    background: #21895d;
+}
+
+/* Statistik */
+.stats {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+}
+
+.stat-card {
+    background: #ffffff;
+    border: 1px solid #edf3ef;
+    padding: 20px;
+    border-radius: 17px;
+    min-height: 145px;
+    box-shadow: 0 5px 18px rgba(30, 80, 55, 0.04);
+    transition: transform 0.3s;
+}
+
+.stat-card:hover {
+    transform: translateY(-4px);
+}
+
+.stat-icon {
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+.stat-card p {
+    font-size: 11px;
+    color: #83958a;
+    margin-bottom: 8px;
+}
+
+.stat-card h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: #183f32;
+}
+
+.stat-card h2 small {
+    font-size: 13px;
+    font-weight: normal;
+    color: #819087;
+}
+
+.positive {
+    font-size: 10px;
+    color: #30a875;
+    font-weight: bold;
+}
+
+/* Buat hp sama tablet */
+@media (max-width: 768px) {
+    body {
+        padding: 16px;
+    }
+
+    .features {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+        margin-bottom: 30px;
+    }
+
+    .content {
+        grid-template-columns: 1fr;
+        gap: 28px;
+    }
+
+    .intro h1 {
+        font-size: 27px;
+    }
+
+    .stat-card {
+        padding: 16px;
+        min-height: 130px;
+    }
+
+    .stat-card h2 {
+        font-size: 21px;
+    }
+}
+
+@media (max-width: 380px) {
+    .stats {
+        gap: 10px;
+    }
+
+    .stat-card {
+        padding: 12px;
+    }
+
+    .stat-card h2 {
+        font-size: 19px;
+    }
+
+    .positive {
+        font-size: 9px;
+    }
+}
