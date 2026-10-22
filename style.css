@@ -72,7 +72,7 @@
     }
 
     /* hero section  */
-    .hero{
+    .hero, .about{
         width: 90%;
         max-width: 1100px;
         margin: 0 auto;
@@ -81,6 +81,7 @@
         justify-content:space-between;
         align-items: center;
         gap: 40px;
+
         padding-top: 30px;
         padding-bottom: 60px;
     }
@@ -448,5 +449,256 @@ body {
 
     .positive {
         font-size: 9px;
+    }
+}
+/* about  */
+.about{
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0 10px 20px rgba( 18, 55, 42, 0.04);
+    border: 1px solid #e5e9e8;
+    padding: 50px 40px;
+}
+
+.about-title{
+    font-size: 36px;
+    color: #12372a;
+    font-weight: 800;
+    line-height: 1.25;
+    margin-bottom: 16px;
+}
+
+.about-desc{
+    font-size: 15px;
+    color: #52606d;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+.value-item{
+    display:flex;
+    gap: 16px;
+    background-color: #f8fcf9;
+    padding: 16px 20px;
+    border-radius: 16px;
+    border: 1px solid #e5e9e8;
+    margin-bottom: 18px;
+}
+
+.value-icon{
+    border-radius: 12px;
+    font-size: 18;
+    background-color:#e7f7ee;
+
+    width: 42px;
+    height: 42px;
+    color: #2ead70;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.value-title{
+    font-weight: 700;
+    font-size: 15px;
+    color: #12372a;
+
+}
+
+.value-desc{
+    font-size: 13px;
+    color: #52606d;
+    line-height: 1.5em;
+}
+
+.box-about-kanan{
+    background-color: #12372a;
+    color: white;
+    padding: 30px;
+    border-radius: 24px;
+    box-shadow: 0 10px 25px rgba(18, 55, 42, 0.15);
+    width: 400px;
+}
+.title-about-kanan{
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+}
+
+.desc-about-kanan{
+    font-size: 14px;
+    color: #cbefdb;
+}
+
+.card-about-kanan{
+    display: flex;
+    flex-wrap:wrap;
+    gap: 10px;
+}
+
+.card-item{
+ background-color: #294b3c;
+ padding: 10px 10px;
+ border-radius: 16px;
+ width: 150px;
+ border: 1px solid #2c6b4c;
+}
+
+.teks-about-kanan{
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(10, 129, 44);
+}
+
+
+.info-title{
+    font-size: 36px;
+    color: #12372a;
+    font-weight: 800;
+    line-height: 1.25;
+    margin-bottom: 16px;
+}
+
+.info-judul{
+     font-size: 15px;
+    color: #52606d;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.info-desk{
+    font-weight: 700;
+    font-size: 20px;
+    color: #12372a;
+}
+
+.info-item{
+    display:flex;
+    gap: 16px;
+    background-color: #f8fcf9;
+    padding: 16px 20px;
+    border-radius: 16px;
+    border: 1px solid #e5e9e8;
+    margin-bottom: 18px;
+}
+.info-icon{
+    border-radius: 12px;
+    font-size: 18;
+    background-color:#e7f7ee;
+
+    width: 42px;
+    height: 42px;
+    color: #2ead70;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-info-kiri{
+    background-color: white;
+    color: #12372a;
+    padding: 30px;
+    border-radius: 24px;
+    box-shadow: 0 10px 25px rgba(18, 55, 42, 0.15);
+}
+
+.title-info-kiri{
+    font-size: 20px;
+    font-weight: 700;
+    color: #12372a;
+
+}
+
+
+/* Footer */
+.footer-wellora {
+    background-color: #103b2e;
+    color: #ffffff;
+    text-align: center;
+    padding: 55px 20px 30px;
+    margin-top: 40px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Logo */
+.footer-logo {
+    margin-bottom: 18px;
+    font-size: 22px;
+        font-weight: 800;
+        color: white;
+        text-decoration: none;
+}
+
+.footer-logo img {
+    width: 125px;
+    height: auto;
+    object-fit: contain;
+    font-size: 22px;
+        
+}
+
+/* Deskripsi*/
+.footer-description {
+    color: #b5c9bd;
+    font-size: 14px;
+    line-height: 1.7;
+    margin: 0 auto 25px;
+}
+
+/* Nav */
+.footer-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 28px;
+    margin-bottom: 25px;
+}
+
+.footer-nav a {
+    color: #f2f7f3;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.footer-nav a:hover {
+    color: #8bd5a8;
+}
+
+/* Buat misahin */
+.footer-divider {
+    width: 70%;
+    max-width: 720px;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.12);
+    margin: 0 auto 22px;
+}
+
+/* copyright */
+.footer-copyright {
+    color: #819c8e;
+    font-size: 12px;
+    line-height: 1.8;
+    margin: 0 auto;
+}
+
+/* buat hp */
+@media (max-width: 600px) {
+    .footer-wellora {
+        padding: 40px 16px 25px;
+    }
+
+    .footer-nav {
+        gap: 18px;
+    }
+
+    .footer-description {
+        font-size: 13px;
+    }
+
+    .footer-copyright {
+        font-size: 11px;
     }
 }
